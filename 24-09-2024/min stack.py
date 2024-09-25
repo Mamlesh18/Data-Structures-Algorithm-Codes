@@ -4,15 +4,15 @@ class Stack:
         self.length = 0
 
     def append(self,val):
-        if self.stack:
-            self.stack.append(val)
+        self.stack.append(val)
         self.length+=1
 
     def remove(self):
         if self.stack:
             self.stack.pop()
-        if self.stack is None:
-            print("empty")
+            self.length-=1
+        else:
+            print('empty')
 
     def top(self):
         if self.stack:
