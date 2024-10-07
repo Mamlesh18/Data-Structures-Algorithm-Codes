@@ -1,0 +1,2 @@
+def sorting(nums,target):
+
