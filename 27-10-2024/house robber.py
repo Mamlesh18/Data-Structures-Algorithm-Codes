@@ -6,7 +6,6 @@ def house(nums):
     if len(nums) == 2:
         return max(nums[0],nums[1])
 
-    i = 0
     j = 1
     count1 = 0
     count2 = 0
